@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Semi Condensed", "sans-serif";
+}
+
+.bg-header {
+    background: rgba(244,232,232,0.6);
+    border-radius: 10px;
+}
+
+.bg-image-header1 {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-image-header2 {
+    background-image: url("../images/banner2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.img-resp {
+    width: 100%;
+    max-width: 800px;
+}
+
+.border-img {
+    border: 3px solid black;
+}
+
+.img-size-logo {
+    display: block;
+    max-width: 200px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.bg-footer {
+    background-color: #959090;
+}
+
+.SoMe-icon {
+    max-width: 80px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+@media only screen and (min-width: 800px) {
+    html {
+      font-size: 1.5rem;
+    }
+    
+    input[type=checkbox] {
+        transform: scale(2.5);
+    }
+}
